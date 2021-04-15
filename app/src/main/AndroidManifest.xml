@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BusinessLocatorActivity"/>
+        <activity android:name=".EventLocatorActivity"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

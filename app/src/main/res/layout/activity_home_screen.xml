@@ -123,6 +123,7 @@
                 android:background="@drawable/round_border"
                 android:orientation="horizontal"
                 android:padding="5dp"
+                android:clickable="true"
 
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/lyt3">

@@ -23,5 +23,13 @@ public class HomeScreenActivity extends AppCompatActivity {
                 act.startActivity(i);
             }
         });
+
+        findViewById(R.id.lyt4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(act,EventLocatorActivity.class);
+                act.startActivity(i);
+            }
+        });
     }
 }
