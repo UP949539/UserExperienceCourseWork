@@ -31,5 +31,13 @@ public class HomeScreenActivity extends AppCompatActivity {
                 act.startActivity(i);
             }
         });
+
+        findViewById(R.id.lyt5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(act,CovidTestingActivity.class);
+                act.startActivity(i);
+            }
+        });
     }
 }
