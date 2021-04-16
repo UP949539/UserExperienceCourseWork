@@ -25,6 +25,7 @@
         <activity android:name=".CovidTestingActivity"/>
         <activity android:name=".businerlocator.BusinessActivity"/>
         <activity android:name=".eventlocator.EventActivity"/>
+        <activity android:name=".testinglocator.TestCenterActivity"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
