@@ -18,5 +18,9 @@ public class BusinessActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business);
+
+        Bundle b = getIntent().getExtras();
+        final String name = b.getString("BusinessName");
+        setTitle(name);
     }
 }
