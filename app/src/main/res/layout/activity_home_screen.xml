@@ -304,7 +304,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="start"
                         android:padding="2dp"
-                        android:text="Hiking Match"
+                        android:text="Hiking"
                         android:textSize="18sp" />
 
                     <TextView
